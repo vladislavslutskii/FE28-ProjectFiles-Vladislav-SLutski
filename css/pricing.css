@@ -1,0 +1,72 @@
+.title-head {
+	text-align: center;
+	font-size: 36px;
+	font-weight: 400;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+}
+.title-line {
+	width: 64px;
+  height: 2px;
+	background: #E72424;
+	margin: auto;
+	margin-top: 34px;
+}
+.title-text {
+	text-align: center;
+	margin-top: 34px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+  font-size: 14px;
+	color: #86878B;
+}
+.pricing-wrap {
+	display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+	margin-top: 71px;
+}
+.pricing-item-one {
+	background-color: #333333;
+	color: white;
+	width: 340px;
+	text-align: center;
+	line-height: 40px;
+	margin-bottom: 1px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+}
+.pricing-item-two {
+	background-color: #333333;
+	color: white;
+	width: 340px;
+	text-align: center;
+	line-height: 100px;
+	margin-bottom: 1px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 35px;
+}
+.pricing-item-three {
+	background-color: #333333;
+	color: rgba(255, 255, 255, 0.5);
+	width: 340px;
+	text-align: center;
+	line-height: 40px;
+	margin-bottom: 1px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+}
+.pricing-item {
+	color: #86878B;
+	width: 340px;
+	text-align: center;
+	line-height: 40px;
+	margin-bottom: 1px;
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+}
