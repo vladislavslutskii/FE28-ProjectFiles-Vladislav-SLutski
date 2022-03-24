@@ -26,6 +26,7 @@
   flex-wrap: wrap;
   margin: 0 -15px;
 	margin-top: 71px;
+	margin-bottom: 20px;
 }
 .pricing-item_one {
 	background-color: #333333;
@@ -69,4 +70,7 @@
 	font-family: 'Open Sans';
 	font-weight: 400;
 	font-size: 14px;
+}
+.pricing-list {
+	margin: 0 15px;
 }

@@ -23,7 +23,7 @@
 }
 .about-wrap {
 	display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   margin: 0 -15px;
 	margin-top: 68px;
@@ -36,6 +36,7 @@
 }
 .about-item-content {
   padding: 1px;
+	margin-bottom: 20px;
 }
 .about-item-img {
 	display: flex;
