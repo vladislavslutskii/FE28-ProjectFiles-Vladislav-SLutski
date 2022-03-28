@@ -5,12 +5,14 @@
 	font-family: 'Raleway', sans-serif;
 	text-transform: uppercase;
 }
-.title-line {
+.title-head::after {
+	content: "";
+	display: block;
 	width: 64px;
   height: 2px;
-	background: #E72424;
 	margin: auto;
 	margin-top: 34px;
+	background: #E72424;
 }
 .title-text {
 	text-align: center;
@@ -26,7 +28,6 @@
   flex-wrap: wrap;
   margin: 0 -15px;
 	margin-top: 71px;
-	margin-bottom: 20px;
 }
 .pricing-item_one {
 	background-color: #333333;
@@ -75,6 +76,7 @@
 }
 .pricing-list {
 	margin: 0 15px;
+	margin-bottom: 20px;
 }
 .pricing-options {
 	background: #aeaeae;

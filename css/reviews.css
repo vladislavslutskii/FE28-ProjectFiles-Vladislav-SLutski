@@ -1,0 +1,85 @@
+.title-head {
+	text-align: center;
+	font-size: 36px;
+	font-weight: 400;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+}
+.title-head::after {
+	content: "";
+	display: block;
+	width: 64px;
+  height: 2px;
+	margin: auto;
+	margin-top: 34px;
+	background: #E72424;
+}
+.reviews-wrap {
+	display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+	margin-top: 71px;
+	
+}
+.reviews-item {
+	margin-bottom: 20px;
+	margin: 0 15px;
+}
+.reviews-item-header {
+	position: relative;
+	width: 298px;
+	background: #E2E2E2;
+	border-radius: 7px;
+	padding: 10px 15px;
+	font-family: 'Open Sans';
+	font-weight: 400;
+  font-size: 14px;
+	line-height: 19px;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	color: #86878B;
+}
+.reviews-item-body {
+	display: flex;
+	justify-content: space-evenly;
+}
+.reviews-item-header::after {
+	content: "";
+	width: 0;
+	height: 0;
+	display: block;
+	position: absolute;
+	border-left: 10px solid transparent; 
+  border-right: 10px solid transparent; 
+  border-top: 20px solid #E2E2E2;
+	top: 100%;
+	left: 2rem;
+}
+.rereviews-item-body-commentPhoto img {
+	border-radius: 50%;
+	margin-top: 24px;
+	border: 1px solid #aeaeae;
+	z-index: 1;
+}
+.comment-name {
+	display: block;
+	margin-top: 24px;
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 27px;
+	text-align: center;
+}
+.comment-position {
+	display: block;
+	margin-top: 12px;
+	margin-left: 24px;
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+	text-align: right;
+	color: #86878B;
+}
