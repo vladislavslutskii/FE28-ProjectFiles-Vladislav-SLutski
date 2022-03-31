@@ -1,0 +1,48 @@
+.socialmedia {
+	padding: 14px 0;
+}
+.social-item {
+	display: block;
+}
+.social-item-header {
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 27px;
+	display: flex;
+	align-items: center;
+	color: #333333;
+	margin-bottom: 14px;
+	max-width: 365px;
+}
+.social-item-body {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+	display: flex;
+	align-items: center;
+	color: #86878B;
+	max-width: 365px;
+}
+.social-wrap {
+	display: flex;
+  justify-content: space-between;
+	align-items: center;
+}
+
+.icons-list-item  {
+	display: inline;
+	font-size: 35px;
+	line-height: 27px;
+	margin-right: 40px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.icons-list-item:last-child {
+	margin-right: 0px;
+}
+.github, .facebook, .twitter, .google, .pinterest, .instagram, .apple  {
+	color: #86878B;
+	display: inline;
+}

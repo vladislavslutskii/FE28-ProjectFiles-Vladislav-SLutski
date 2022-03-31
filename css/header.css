@@ -1,0 +1,50 @@
+.header {
+	background: #000000;
+	padding: 20px 0;
+}
+.logo-text {
+	font-family: 'Raleway';
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 35px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+}
+.logo-text::after {
+	content: 'IT';
+	text-transform: uppercase;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 35px;
+	color: #EC7979;
+}
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation-list {
+  display: flex;
+}
+.navigation-list-item {
+  margin-left: 48px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+.navigation-list-item:first-child {
+	margin-left: 0px;
+}
+.navigation-list-item:hover {
+	border-bottom: 3px solid #FFFFFF;
+	transform: translate(0px, 1.5px);
+}
+.navigation-list-item a {
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 20px;
+	color: rgba(255, 255, 255, 0.7);
+}

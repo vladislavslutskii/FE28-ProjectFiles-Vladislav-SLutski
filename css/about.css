@@ -39,7 +39,7 @@
   padding: 1px;
 	margin-bottom: 20px;
 }
-.about-item-img {
+.about-item-picture {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -48,6 +48,8 @@
 	width: 70px;
   height: 70px;
 	margin: 0 auto 20px;
+	color: chocolate;
+	font-size: 35px;
 }
 .about-item-title {
 	margin-top: 30px;
