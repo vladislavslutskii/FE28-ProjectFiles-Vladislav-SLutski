@@ -78,6 +78,9 @@
 	margin: 0 15px;
 	margin-bottom: 20px;
 }
+.pricing-list:hover {
+	transform: translate(10px,-10px);
+}
 .pricing-options {
 	background: #aeaeae;
 }
