@@ -1,0 +1,143 @@
+.firstscreen {
+	background: url(../img/bg/background-2.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.firstscreen::after {
+	content:'';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.55);
+}
+.firstscreen-left, .firstscreen-left-right {
+	margin: 0 15px;
+}
+.firstscreen-wrap {
+	display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+.firstscreen-logo {
+	text-transform: uppercase;
+	font-family: 'Raleway';
+	font-weight: 400;
+	font-size: 60px;
+	color: #FFFFFF;
+}
+.firstscreen-logo::after {
+	content: 'it';
+	text-transform: uppercase;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 60px;
+	color: #EC7979;
+}
+.firstscreen-header {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 42px;
+	color: #FFFFFF;
+	width: 544px;
+	margin-top: 42px;
+}
+.firstscreen-header::after {
+	content: "";
+	display: block;
+	width: 64px;
+  height: 2px;
+	background: #FFFFFF;
+	margin-top: 34px;
+}
+.firstscreen-text {
+	margin-top: 39px;
+	font-family: 'Raleway';
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 19px;
+	color: rgba(255, 255, 255, 0.4);
+	width: 282px;
+}
+.download-body {
+	display: inline-block;
+	text-align: left;
+	color: #FFFFFF;
+	padding: 11px 26px;
+	border: 1px solid #FFFFFF;
+	margin-top: 57px;
+	text-decoration: none;
+}
+.firstscreen-link {
+	text-align: left;
+}
+.form-title {
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-size: 20px;
+	color: #333333;
+	margin-bottom: 59px;
+	padding-top: 15px;
+}
+.free::after {
+	content: 'free';
+	display: inline-block;
+	text-transform: uppercase;
+	color: #EC7979;
+}
+.form-menu {
+	width: 370px;
+	background: #FFFFFF;
+	border-radius: 8px;
+}
+.form-label {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+	display: flex;
+	align-items: center;
+	color: #BDBDBD;
+}
+.form-content-input {
+	margin-top: 16px;
+	display: block;
+	width: 100%;
+	outline: none;
+	border: none;
+	border-bottom:3px solid #BDBDBD;
+}
+
+.form-content {
+	padding: 0 59px 59px 61px;
+	margin: 0 -15px;
+}
+.form-label {
+	margin-top: 19px;
+}
+.form-label:first-child {
+	margin-top: none;
+}
+.form-button {
+	text-align: center;
+	
+}
+.form-btn {
+	border: none;
+	background: #EC7979;
+	border-radius: 0px 0px 8px 8px;
+	width: 100%;
+	padding: 20px;
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size: 15px;
+	color: #FFFFFF;
+}

@@ -1,0 +1,82 @@
+.title-head {
+	text-align: center;
+	font-size: 36px;
+	font-weight: 400;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+}
+.title-head::after {
+	content: "";
+	display: block;
+	width: 64px;
+  height: 2px;
+	margin: auto;
+	margin-top: 34px;
+	background: #E72424;
+}
+.title-text {
+	text-align: center;
+	margin-top: 34px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+  font-size: 14px;
+	color: #86878B;
+	margin-bottom: 30px;
+}
+.form-contact-content {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+  margin: 0 -15px;
+	margin-top: 30px;
+}
+.form-left {
+	width: 40%;
+	margin: 0 15px;
+}
+.form-right {
+	width: 40%;
+	margin: 0 15px;
+}
+.form-contact-label {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+	display: flex;
+	align-items: center;
+	color: #BDBDBD;
+	margin-top: 32px;
+}
+.form-contact-label:first-child {
+	margin-top: none;
+}
+.form-contact-input {
+	margin-top: 30px;
+	display: block;
+	width: 100%;
+	outline: none;
+	border: none;
+	border-bottom:1px solid #BDBDBD;
+}
+.form-textarea {
+	margin-top: 30px;
+	outline: none;
+	border: none;
+	border-bottom:1px solid #BDBDBD;
+	resize: none;
+}
+.form-contact-button {
+	text-align: center;
+	margin-top: 80px;
+}
+.form-contact-btn {
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size: 15px;
+	text-align: center;
+	color: #FFFFFF;
+	background: #EC7979;
+	border: 1px solid #FFFFFF;
+	padding: 11px 32px;
+	
+}
